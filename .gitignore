@@ -1,0 +1,10 @@
+/**
+
+!.gitignore
+
+!local/
+!profile/
+
+!local/settings.cfg
+!local/videoconfig.txt
+!profile/profile.cfg
