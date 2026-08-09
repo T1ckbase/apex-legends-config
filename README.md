@@ -1,3 +1,10 @@
+git config:
+
+```bash
+git config filter.settings-filter.clean "sed -E 's/^(name)\s\".*\"/\1 \"\"/'"
+git config filter.profile-filter.clean "sed -E 's/^(localClientPlayerCachedLevel|pin_telemetry_report_date)\s\".*\"/\1 \"0\"/'"
+```
+
 launch options:
 
 ```

@@ -1,0 +1,5 @@
+local/settings.cfg filter=settings-filter
+profile/profile.cfg filter=profile-filter
+
+# Treat videoconfig.txt as text despite being null-terminated
+videoconfig.txt text diff
