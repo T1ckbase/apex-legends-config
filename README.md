@@ -8,5 +8,5 @@ git config filter.profile-filter.clean "sed -E 's/^(localClientPlayerCachedLevel
 launch options:
 
 ```
--dev -nojoy -netconport 42069 +exec autoexec +fps_max 165 +mat_letterbox_aspect_goal 0 +mat_letterbox_aspect_threshold 0 +building_cubemaps 1
+-novid -dev -netconport 42069 -no_render_on_input_thread +exec autoexec +mat_letterbox_aspect_goal 0 +mat_letterbox_aspect_threshold 0 +building_cubemaps 1
 ```
